@@ -1,0 +1,41 @@
+.video_container li{
+    list-style: none;
+}
+
+
+.video_info{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.thumbnailImg{
+    cursor: pointer;
+}
+
+.video_info p {
+    cursor: pointer;
+}
+
+.video_info_title{
+    font-weight: bold;
+    margin: 2px 0;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.video_info_channelTitle{
+    margin: 2px 0;
+    opacity: 0.8;
+}
+
+.video_info_publishedAt{
+    margin: 2px 0;
+    opacity: 0.6;
+}
+
+.video_info_channelTitle:hover{
+    opacity: 1;
+}

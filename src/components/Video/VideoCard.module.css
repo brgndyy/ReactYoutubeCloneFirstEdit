@@ -1,0 +1,31 @@
+
+.video_card_ul{
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 320px);
+    gap: 10px;
+}
+
+@media (max-width : 1550px){
+    .video_card_ul{
+        grid-template-columns: repeat(4, 320px);
+    }
+}
+
+@media (max-width : 1300px){
+    .video_card_ul{
+        grid-template-columns: repeat(3, 320px);
+    }
+}
+
+@media (max-width : 1000px){
+    .video_card_ul{
+        grid-template-columns: repeat(2, 320px);
+    }
+}
+
+@media (max-width : 700px){
+    .video_card_ul{
+        grid-template-columns: repeat(1, 320px);
+    }
+}

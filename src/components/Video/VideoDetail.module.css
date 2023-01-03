@@ -1,0 +1,18 @@
+.VideoDetail_section{
+    width: 70%;
+}
+
+.VideoDetail_title{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px;
+    color: #fff;
+}
+
+
+@media (max-width : 1600px){
+    .VideoDetail_section{
+        display: flex;
+        flex-direction: row;
+    }
+}
